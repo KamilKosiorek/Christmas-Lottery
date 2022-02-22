@@ -11,6 +11,7 @@
 
 
 --Package spec
+@package_spec/PKG_DIM.sql;
 @package_spec/PKG_DRAW.sql
 @package_spec/PKG_MEMBER.sql
 @package_spec/PKG_EXCLUSIONS.sql

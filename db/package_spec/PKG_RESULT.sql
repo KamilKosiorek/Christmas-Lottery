@@ -1,5 +1,7 @@
 create or replace package PKG_RESULT
 as
+  procedure p_reset_random_counter;
+  
   procedure p_generate_result(
     pi_id_draw in TBL_DRAW.ID%TYPE
   );
